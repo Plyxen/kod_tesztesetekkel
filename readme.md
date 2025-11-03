@@ -10,9 +10,15 @@ A nem betű karaktereket (szám, írásjel, szóköz stb.) figyelmen kívül kel
 ## 🔍 Elvárások
 
 - A függvény **while ciklus** és **elágazások** segítségével oldd meg. 
-- A függvény ne írjon ki semmit, hanem **visszatérési értékként** adja vissza a listát.  
+- A függvény ne írjon ki semmit, hanem **visszatérési értéke** legyen a lista.  
 - Minden betű **csak egyszer** szerepeljen az eredményben.  
-- Az eredmény **ábécé sorrendben** legyen rendezve. A rendezéshez használhatod a sort függvényt.  
+- Az eredmény **ábécé sorrendben** legyen rendezve.   
+
+---
+
+## ✳️ Segítség
+
+- Nézz utána w3scholl oldalán a szövegkezelő és a listakezelő függvényeknek!
 
 ---
 
@@ -20,10 +26,10 @@ A nem betű karaktereket (szám, írásjel, szóköz stb.) figyelmen kívül kel
 
 ```python
 >>> egyedi_betuk("Hello, Világ!")
-['a', 'e', 'g', 'h', 'i', 'l', 'o', 'v']
+['e', 'g', 'h', 'i', 'l', 'v', 'á', 'ó']
 
 >>> egyedi_betuk("Python 3.12")
 ['h', 'n', 'o', 'p', 't', 'y']
 
 >>> egyedi_betuk("Árvíztűrő tükörfúrógép")
-['a', 'e', 'f', 'g', 'k', 'o', 'p', 'r', 't', 'u', 'v', 'z']
+['f', 'g', 'k', 'p', 'r', 't', 'v', 'z', 'á', 'é', 'í', 'ó', 'ö', 'ú', 'ü', 'ő', 'ű']

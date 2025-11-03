@@ -1,3 +1,4 @@
 import feladatok
 
-print(feladatok.egyedi_betuk("Szép az élet!"))
+print(feladatok.egyedi_betuk("sikerült"))
+
